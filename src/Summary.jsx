@@ -16,26 +16,26 @@ export default function Summary() {
       <div className="summary-cont">
         <div className="reaction bar">
           <div className="bar-cont">
-            <img src={reaction} alt="Your Reaction" />
-            <h4 className="h4 recation">Reaction</h4>
+            <img src={reaction} alt="Your Reaction" /><strong>Reaction </strong>
+            <strong>80</strong>/100
           </div>
         </div>
         <div className="memory bar">
           <div className="bar-cont">
-            <img src={memory} alt="Your Reaction" />
-            <h4 className="h4 recation">Reaction</h4>
+            <img src={memory} alt="Your Reaction" /><strong>Memory </strong>
+            <strong>80</strong>/100
           </div>
         </div>
         <div className="verbal bar">
           <div className="bar-cont">
-            <img src={verbal} alt="Your Reaction" />
-            <h4 className="h4 recation">Reaction</h4>
+            <img src={verbal} alt="Your Reaction" /><strong>Verbal </strong>
+            <strong>80</strong>/100
           </div>
         </div>
         <div className="visual bar">
           <div className="bar-cont">
-            <img src={visual} alt="Your Reaction" />
-            <h4 className="h4 recation">Reaction</h4>
+            <img src={visual} alt="Your Reaction" /><strong>Visual </strong>
+            <strong>80</strong>/100
           </div>
         </div>
       </div>
